@@ -13,7 +13,7 @@ let html = "";
 img.forEach((e) => {
   html += ` <div class="col-md-4">
   <div class="card mb-4 shadow-sm">
-  <img src="./images/${e.url}" alt="" />
+  <img src="./images/${e.url}" alt="" class='w-100'/>
     <div class="card-body">
       <p class="card-text">album xàm l bọn tao</p>
       <div
